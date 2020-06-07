@@ -14,4 +14,10 @@ Each step contains a readme with the explanation of the step and, if is change f
     - [HTTP Status Codes](00%20-%20Intro.md#http-status-codes)
     - [OpenApi](00%20-%20Intro.md#openapi)
     - [OpenApi 2.0 vs 3.0](00%20-%20Intro.md#openapi-20-vs-30)
+1. [Microservice Definition](01%20-%20Microservice%20Definition.md)
+   - [Swagger Hub](01%20-%20Microservice%20Definition.md#swagger-hub)
+   - [Specification](01%20-%20Microservice%20Definition.md#specification)
+   - [Info Object](01%20-%20Microservice%20Definition.md#info-object)
+   - [Server Object](01%20-%20Microservice%20Definition.md#server-object)
+   - [Path Object](01%20-%20Microservice%20Definition.md#path-object)
 
