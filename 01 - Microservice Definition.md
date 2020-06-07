@@ -7,6 +7,7 @@
 - [Info Object](#info-object)
 - [Server Object](#server-object)
 - [Path Object](#path-object)
+- [Full Example](#full-example)
 
 ---
 
@@ -86,6 +87,28 @@ provides the relative path to reach the endpoint operation.
 
 With this object it is possible to specify all the request and response data with the corresponding return code:
 ```yaml
+paths:
+  /example:
+    get:
+      description: Return a list of examples
+      responses:
+        '200':
+          description: A list of examples.
+```
+
+---
+
+## Full Example
+
+```yaml
+openapi: 3.0.0
+info:
+  version: '1.0'
+  title: 'Basic Example'
+  description: 'Basic specification example'
+servers: 
+  - url: http://example.com/api
+    description: My example server 
 paths:
   /example:
     get:
