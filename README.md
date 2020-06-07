@@ -27,4 +27,8 @@ Each step contains a readme with the explanation of the step and, if is change f
     - [Objects](02%20-%20Schemas.md#objects)
     - [Enums](02%20-%20Schemas.md#enums)
     - [Full Example](02%20-%20Schemas.md#full-example)
-
+1. [Components](03%20-%20Components.md)
+    - [Component Object](03%20-%20Components.md#component-object)
+    - [Reusability](03%20-%20Components.md#reusability)
+    - [Inheritance](03%20-%20Components.md#inheritance)
+    - [Full Example](03%20-%20Components.md#full-example)
