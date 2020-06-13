@@ -32,3 +32,8 @@ Each step contains a readme with the explanation of the step and, if is change f
     - [Reusability](03%20-%20Components.md#reusability)
     - [Inheritance](03%20-%20Components.md#inheritance)
     - [Full Example](03%20-%20Components.md#full-example)
+1. [Parameters](04%20-%20Parameters.md)   
+    - [Parameter Object](04%20-%20Parameters.md#parameter-object)
+    - [Query Parameters](04%20-%20Parameters.md#query-parameters)
+    - [Path Parameters](04%20-%20Parameters.md#path-parameters)
+    - [Full Example](04%20-%20Parameters.md#full-example)
