@@ -54,3 +54,7 @@ Each step contains a readme with the explanation of the step and, if is change f
     - [JWT Bearer Token Auth](06%20-%20Security.md#jwt-bearer-token-auth)
     - [Anonymous Auth](06%20-%20Security.md#anonymous-auth)
     - [Full Example](06%20-%20Security.md#full-example)
+1. [Code Generation](07%20-%20Code%20Generation.md)
+    - [OpenApi Generator](07%20-%20Code%20Generation.md#openapi-generator)
+    - [Java Client](07%20-%20Code%20Generation.md#java-client)
+    - [Java Server](07%20-%20Code%20Generation.md#java-server)
