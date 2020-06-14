@@ -117,7 +117,7 @@ servers:
   - url: http://example.com/api
     description: My example server 
 paths:
-  /example:
+  /v1/examples:
     get:
       description: Return a list of examples
       responses:

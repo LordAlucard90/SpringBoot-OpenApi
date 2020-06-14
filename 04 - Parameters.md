@@ -85,7 +85,7 @@ Path parameters are used to access, for example, to a specific element. The need
 An example is:
 ```yaml
 paths:
-  /example/{uuidExample}:
+  /v1/examples/{uuidExample}:
     get:
       parameters:
         - name: uuidExample
@@ -140,7 +140,7 @@ servers:
   - url: http://example.com/api
     description: My example server 
 paths:
-  /example:
+  /v1/examples:
     get:
       parameters:
         - $ref: "#/components/parameters/CurPageParam"
@@ -153,7 +153,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/PagedResponseExample"
-  /example/{uuidExample}:
+  /v1/examples/{uuidExample}:
     get:
       parameters:
         - $ref: "#/components/parameters/UuidExampleParam"

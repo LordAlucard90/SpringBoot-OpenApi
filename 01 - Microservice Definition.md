@@ -88,7 +88,7 @@ provides the relative path to reach the endpoint operation.
 With this object it is possible to specify all the request and response data with the corresponding return code:
 ```yaml
 paths:
-  /example:
+  /v1/examples:
     get:
       description: Return a list of examples
       responses:
@@ -110,7 +110,7 @@ servers:
   - url: http://example.com/api
     description: My example server 
 paths:
-  /example:
+  /v1/examples:
     get:
       description: Return a list of examples
       responses:
