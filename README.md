@@ -7,6 +7,8 @@ The repository is divided by the main topics and each one is composed by the dif
 (step is not equal to video).
 Each step contains a readme with the explanation of the step and, if is change from the previous step, the new code.
 
+It is possible to find a spring boot example [here](https://github.com/LordAlucard90/HowTo-Dev/tree/master/java/spring/openapi).
+
 ## Content
 
 1. [Intro](00%20-%20Intro.md)

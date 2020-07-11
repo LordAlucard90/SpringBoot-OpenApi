@@ -64,11 +64,18 @@ paths:
 ## Full Example
 
 ```yaml
-openapi: 3.0.0
 info:
   version: '1.0'
   title: 'Basic Example'
   description: 'Basic specification example'
+  termsOfService: http://example.com/terms/
+  contact:
+    name: API Support
+    url: http://www.example.com/support
+    email: support@example.com
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
 servers: 
   - url: http://example.com/api
     description: My example server 
@@ -235,7 +242,7 @@ components:
     Example:
       type: object
       properties:
-        uuidExamle:
+        uuidExample:
           type: string
           format: uuid
           readOnly: true
